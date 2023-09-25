@@ -5,18 +5,16 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "jest --detectOpenHandles" 
+    "test": "jest --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
     "axios": "^1.5.0",
     "body-parser": "^1.20.2",
     "cheerio": "^1.0.0-rc.12",
-    "express": "^4.18.2",
-    "node-fetch": "^3.2.6"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
