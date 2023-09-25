@@ -12,9 +12,9 @@ const cleanTestData = () => {
       console.log("Error deleting directory", err);
     }
   });
-}
+};
 
-// scraper test suite
+// Scraper test suite
 describe("scraper", () => {
   // Test unique filename generator (type of test: unit)
   test("generateFilename() returns a string", () => {
@@ -59,7 +59,6 @@ describe("scraper", () => {
     expect(response.body).toHaveProperty("products_saved");
   });
 });
-
 // close the server and delete the test data directory after all tests have run
 afterAll(() => {
   cleanTestData();

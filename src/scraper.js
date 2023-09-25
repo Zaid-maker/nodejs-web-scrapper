@@ -34,7 +34,7 @@ router.post("/scrape", async (req, res) => {
 
         // If both title, price and link are not empty, add to products array
         if (title !== "" && price !== "" && link !== "") {
-          products.push({ title, price, link});
+          products.push({ title, price, link });
         }
       });
       // Call the saveProductJson function to save the products array to a JSON file
